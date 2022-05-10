@@ -6,7 +6,7 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form>
-        <input className="input-search"></input>
+        <input className="input-search" autoComplete="false"></input>
         <button className="btn btn-primary">Look it up</button>
       </form>
 
