@@ -16,7 +16,7 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          This is an open-sourced page built by{" "}
+          This is an open-sourced project built by{" "}
           <a
             href="https://github.com/MaxYeats/dictionary-react"
             title="link to Melissa's Github project page"

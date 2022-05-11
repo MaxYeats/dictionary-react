@@ -15,5 +15,15 @@ main,
 }
 
 .App-footer {
-  margin: 20px 0;
+  margin: 40px;
+  font-size: 12px;
+}
+
+.initial-question {
+  padding: 10px;
+}
+
+.Results {
+  text-align: left;
+  margin: 10px;
 }

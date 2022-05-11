@@ -2,12 +2,17 @@
 
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results.js";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
+
+  //the results here is an object so useState({}) but if an array it would be useState(null), there was an error though and we had to set it as null.
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    //console.log(response.data[0].meanings[0].definitions[0].definition);
+    setResults(response.data[0]);
   }
 
   function search(event) {
@@ -34,7 +39,7 @@ export default function Dictionary() {
         <button className="button">Look it up</button>
       </form>
 
-      <div>Pai dos Burros</div>
+      <Results results={results} />
     </div>
   );
 }
