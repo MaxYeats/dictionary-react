@@ -28,6 +28,8 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
+      <h2>Dictionary</h2>
+
       <form onSubmit={search}>
         <input
           type="search"
