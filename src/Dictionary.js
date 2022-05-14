@@ -53,8 +53,9 @@ export default function Dictionary(props) {
             type="search"
             onChange={handleKeywordChange}
             className="input-search"
-            placeholder="Enter your word here"
+            //placeholder="Enter your word here"
             autoComplete="false"
+            defaultValue={props.defaultKeyword}
           />
           <input className="button" type="submit" value="Learn about" />
         </form>

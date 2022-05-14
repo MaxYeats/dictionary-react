@@ -56,6 +56,12 @@ form {
   border: 1px transparent;
   color: aliceblue;
 }
+.button:hover {
+  text-decoration: none;
+  background-color: blanchedalmond;
+  transition: all 300ms ease-in-out;
+  color: blue;
+}
 .Results {
   text-align: left;
   margin: 10px;
@@ -64,7 +70,36 @@ form {
 .Results section {
   background-color: azure;
   border-radius: 12px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
   margin: 10px;
+}
+
+.phonetic-player {
+  text-decoration: none;
+}
+.Meaning {
+  padding: 10px;
+}
+.Meaning span {
+  opacity: 0.7;
+  font-size: smaller;
+}
+
+.Meaning .example {
+  font-size: 14px;
+}
+
+.Example {
+  margin: 5px 0;
+}
+.Synonyms {
+  font-size: 14px;
+  margin: 5px 0;
+  padding: 0;
+}
+.Synonyms li {
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
 }
