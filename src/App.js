@@ -5,6 +5,17 @@ import "./App.css";
 import Dictionary from "./Dictionary.js";
 import "bootstrap/dist/css/bootstrap.css";
 
+//import background from "./soccerfield5.png";
+// <div className="App" style={{ backgroundImage: `url(${background})` }}></div>
+
+//OR in CSS
+//.App {
+//background-image: url(soccerfield5.png);
+//background-repeat: repeat;
+//background-size: cover;
+//background-color: rgba(255, 255, 255, 0.3);
+//}
+
 export default function App() {
   return (
     <div className="App">
@@ -13,7 +24,7 @@ export default function App() {
           <img src={logo} className="img-fluid" alt="logo" id="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="curiosity" />
         </main>
         <footer className="App-footer">
           This is an open-sourced project built by{" "}

@@ -1,4 +1,12 @@
 /** @format */
+html {
+  background-color: aquamarine;
+}
+.App {
+  background: rgb(248, 219, 241);
+  padding: 20px;
+}
+
 .App-header {
   margin: 20px 0;
 }
@@ -23,7 +31,40 @@ main,
   padding: 10px;
 }
 
+.Dictionary section {
+  background-color: azure;
+  border-radius: 12px;
+
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+form {
+  padding: 20px;
+}
+
+.input-search {
+  border-radius: 5px;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.4);
+  border: 1px transparent;
+}
+
+.button {
+  border-radius: 5px;
+  box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.4);
+
+  background-color: #969cee;
+  border: 1px transparent;
+  color: aliceblue;
+}
 .Results {
   text-align: left;
+  margin: 10px;
+}
+
+.Results section {
+  background-color: azure;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
   margin: 10px;
 }
