@@ -1,6 +1,6 @@
 /** @format */
 
-import logo from "./soccerfield1.png";
+import logo from "./motherbaby.png";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 import "bootstrap/dist/css/bootstrap.css";

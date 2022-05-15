@@ -1,12 +1,22 @@
 /** @format */
+:root {
+  --title-font: "Cinzel Decorative", cursive;
+  --Roosevelt-font: "Dancing Script", cursive;
+  --primary-font: "Marcellus", serif;
+  --secondary-font: "Corben", cursive;
+  --section-color: azure;
+  --bg-color: rgb(248, 219, 241);
+}
+
 html {
-  background-color: aquamarine;
+  background-color: rgb(248, 219, 241);
 }
 .App {
   background: rgb(248, 219, 241);
   padding: 20px;
 
   margin: 0 auto;
+  font-family: var(--primary-font);
 }
 
 .App-header {
@@ -30,7 +40,13 @@ main,
 }
 
 .initial-question {
-  padding: 10px;
+  padding: 20px;
+  font-family: var(--Roosevelt-font);
+  font-size: 20px;
+}
+
+h1 {
+  font-family: var(--title-font);
 }
 
 .Dictionary section {
@@ -77,6 +93,9 @@ form {
   margin: 10px;
 }
 
+h2 {
+  font-family: var(--secondary-font);
+}
 .phonetic-player {
   text-decoration: none;
 }
@@ -117,4 +136,14 @@ form {
 .Pexels-pic {
   margin: 10px auto;
   border-radius: 6px;
+}
+
+.motherbaby section {
+  margin: 10px 20px;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+.fairy-img {
+  border-radius: 12px;
 }

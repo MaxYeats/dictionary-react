@@ -65,7 +65,7 @@ export default function Dictionary(props) {
           </em>{" "}
           - Eleanor Roosevelt
         </div>
-        <h2>Dictionary</h2>
+        <h1>Dictionary</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="search"

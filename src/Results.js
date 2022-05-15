@@ -3,6 +3,7 @@
 import React from "react";
 import Meaning from "./Meaning.js";
 import Phonetic from "./Phonetic.js";
+import motherbaby from "./motherbaby.png";
 
 export default function Results(props) {
   if (props.results) {
@@ -30,14 +31,9 @@ export default function Results(props) {
     );
   } else {
     return (
-      <div className="initial-question">
+      <div className="motherbaby">
         <section>
-          <em>
-            "I think, at a child's birth, if a mother could ask a fairy
-            godmother to endow it with the most useful gift, that gift should be
-            curiosity."
-          </em>{" "}
-          - Eleanor Roosevelt
+          <img src={motherbaby} className="img-fluid fairy-img " alt="" />
         </section>
       </div>
     );
