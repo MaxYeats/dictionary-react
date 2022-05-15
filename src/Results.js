@@ -34,6 +34,11 @@ export default function Results(props) {
       <div className="motherbaby">
         <section>
           <img src={motherbaby} className="img-fluid fairy-img " alt="" />
+          <div className="initial-question">
+            "I think, at a child's birth, if a mother could ask a fairy
+            godmother to endow it with the most useful gift, that gift should be
+            curiosity." - Eleanor Roosevelt
+          </div>
         </section>
       </div>
     );
