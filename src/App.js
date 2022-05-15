@@ -24,7 +24,7 @@ export default function App() {
           <img src={logo} className="img-fluid" alt="logo" id="logo" />
         </header>
         <main>
-          <Dictionary defaultKeyword="curiosity" />
+          <Dictionary defaultKeyword="curious" />
         </main>
         <footer className="App-footer">
           This is an open-sourced project built by{" "}
