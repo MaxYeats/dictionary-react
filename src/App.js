@@ -21,7 +21,16 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
+          <h2>Dictionary</h2>
           <img src={logo} className="img-fluid" alt="logo" id="logo" />
+          <div className="initial-question">
+            <em>
+              "I think, at a child's birth, if a mother could ask a fairy
+              godmother to endow it with the most useful gift, that gift should
+              be curiosity."
+            </em>{" "}
+            - Eleanor Roosevelt
+          </div>
         </header>
         <main>
           <Dictionary defaultKeyword="curious" />
@@ -33,6 +42,7 @@ export default function App() {
             title="link to Melissa's Github project page"
             target="_blank"
             rel="noreferrer"
+            className="github-link"
           >
             Melissa Tseng
           </a>

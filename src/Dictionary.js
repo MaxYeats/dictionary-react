@@ -57,15 +57,6 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <div className="initial-question">
-          <em>
-            "I think, at a child's birth, if a mother could ask a fairy
-            godmother to endow it with the most useful gift, that gift should be
-            curiosity."
-          </em>{" "}
-          - Eleanor Roosevelt
-        </div>
-        <h1>Dictionary</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
