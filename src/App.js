@@ -1,6 +1,6 @@
 /** @format */
 
-import logo from "./motherbaby.png";
+//import logo from "./motherbaby.png";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
 import "bootstrap/dist/css/bootstrap.css";
@@ -15,21 +15,19 @@ import "bootstrap/dist/css/bootstrap.css";
 //background-size: cover;
 //background-color: rgba(255, 255, 255, 0.3);
 //}
-
+//<img src={logo} className="img-fluid" alt="logo" id="logo" />
 export default function App() {
   return (
     <div className="App">
       <div className="container">
         <header className="App-header">
           <h2>Dictionary</h2>
-          <img src={logo} className="img-fluid" alt="logo" id="logo" />
-          <div className="initial-question">
+          <div className="initial-quote">
             <em>
-              "I think, at a child's birth, if a mother could ask a fairy
-              godmother to endow it with the most useful gift, that gift should
-              be curiosity."
+              “The man who asks a question is a fool for a minute, the man who
+              does not ask is a fool for life.”
             </em>{" "}
-            - Eleanor Roosevelt
+            - Confucius
           </div>
         </header>
         <main>

@@ -40,7 +40,7 @@ main,
 }
 
 .App-footer {
-  margin-top: 20px;
+  margin: 30px 20px;
   font-size: 14px;
 }
 .github-link {
@@ -52,14 +52,26 @@ main,
   transition: all 200ms ease-out;
 }
 
-.initial-question {
+.initial-quote {
   font-family: var(--Roosevelt-font);
   font-size: 26px;
+  margin: 10px;
+  text-align: center;
+}
+
+.eleanor-quote {
+  font-family: var(--Roosevelt-font);
+  font-size: 26px;
+  margin: 10px;
+  text-align: center;
 }
 
 header h2 {
   font-family: var(--title-font);
-  font-weight: 400;
+  font-stretch: expanded;
+  padding: 20px;
+  text-shadow: 5px 5px 10px rgb(250, 250, 250);
+  margin: 0;
 }
 
 .Dictionary section {
@@ -76,16 +88,18 @@ form {
   border-radius: 5px;
   box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.4);
   border: 1px transparent;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 5px 10px;
 }
 
 .button {
   border-radius: 5px;
   box-shadow: 6px 5px 5px rgba(0, 0, 0, 0.4);
-  font-size: 20px;
+  font-size: 18px;
   background-color: #5284e8;
   border: 1px transparent;
   color: aliceblue;
+  padding: 5px 10px;
 }
 .button:hover {
   text-decoration: none;
@@ -151,9 +165,10 @@ h2 {
   border-radius: 6px;
 }
 
-.motherbaby section {
-  margin: 10px 20px;
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);
+.motherbaby {
+  border-radius: 12px;
+  margin: 10px;
+  border: 1px solid var(--section-color);
   padding: 20px;
 }
 
