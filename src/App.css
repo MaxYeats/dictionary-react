@@ -32,13 +32,22 @@ main,
   text-align: center;
 }
 
-#logo {
-  max-width: 100px;
-  display: block;
-  margin: 0 auto;
-  padding: 10px;
+header h2 {
+  font-family: var(--title-font);
+  font-stretch: expanded;
+  padding: 20px;
+  text-shadow: 5px 5px 10px rgb(250, 250, 250);
+  margin: 0;
+  font-weight: 500;
 }
-
+.initial-quote {
+  font-family: var(--Roosevelt-font);
+  text-shadow: 5px 5px 10px rgb(250, 250, 250);
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+  font-weight: 600;
+}
 .App-footer {
   margin: 30px 20px;
   font-size: 14px;
@@ -50,28 +59,6 @@ main,
 .github-link:hover {
   color: aliceblue;
   transition: all 200ms ease-out;
-}
-
-.initial-quote {
-  font-family: var(--Roosevelt-font);
-  font-size: 26px;
-  margin: 10px;
-  text-align: center;
-}
-
-.eleanor-quote {
-  font-family: var(--Roosevelt-font);
-  font-size: 26px;
-  margin: 10px;
-  text-align: center;
-}
-
-header h2 {
-  font-family: var(--title-font);
-  font-stretch: expanded;
-  padding: 20px;
-  text-shadow: 5px 5px 10px rgb(250, 250, 250);
-  margin: 0;
 }
 
 .Dictionary section {
@@ -123,9 +110,7 @@ form {
 h2 {
   font-family: var(--secondary-font);
 }
-.phonetic-player {
-  text-decoration: none;
-}
+
 .audio-player {
   display: block;
   margin: 10px;
@@ -133,6 +118,28 @@ h2 {
   border-radius: 9px;
   opacity: 0.6;
 }
+
+.motherbaby {
+  border-radius: 12px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.fairy-img {
+  border-radius: 12px;
+  opacity: 0.7;
+  border: 1px solid black;
+}
+
+.eleanor-quote {
+  font-family: var(--Roosevelt-font);
+  font-size: 26px;
+  margin: 10px;
+  text-align: center;
+  text-shadow: 5px 5px 12px rgb(250, 250, 250);
+}
+
 .Meaning {
   padding: 10px;
 }
@@ -148,6 +155,12 @@ h2 {
 .Example {
   margin: 5px 0;
 }
+
+.Example span {
+  opacity: 0.7;
+  font-size: smaller;
+}
+
 .Synonyms {
   font-size: 14px;
   margin: 5px 0;
@@ -172,13 +185,8 @@ h2 {
   border-radius: 6px;
 }
 
-.motherbaby {
-  border-radius: 12px;
-  margin: 10px;
-  border: 2px solid var(--section-color);
-  padding: 20px;
-}
-
-.fairy-img {
-  border-radius: 12px;
+@media (max-width: 415px) {
+  .audio-player {
+    margin: 0 auto;
+  }
 }

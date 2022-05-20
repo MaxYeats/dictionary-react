@@ -3,7 +3,7 @@
 import React from "react";
 import Meaning from "./Meaning.js";
 import Phonetic from "./Phonetic.js";
-import motherbaby from "./motherbaby.png";
+import motherbaby from "./motherbaby2.png";
 
 export default function Results(props) {
   if (props.results && props.results.word !== "curious") {
