@@ -45,7 +45,12 @@ export default function Results(props) {
           })}
         </section>
         <div className="motherbaby">
-          <img src={motherbaby} className="img-fluid fairy-img " alt="" />
+          <img
+            src={motherbaby}
+            className="img-fluid fairy-img "
+            alt=""
+            title="drawing of mother with baby and fairy godmother"
+          />
           <div className="eleanor-quote">
             <em>
               "I think, at a child's birth, if a mother could ask a fairy

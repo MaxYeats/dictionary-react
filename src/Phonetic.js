@@ -14,6 +14,7 @@ export default function Phonetic(props) {
           src={props.phonetic.audio}
           controls
           className="audio-player"
+          title="audio player"
         />
       </div>
     );

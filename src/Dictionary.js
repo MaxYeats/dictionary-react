@@ -66,7 +66,12 @@ export default function Dictionary(props) {
             autoComplete="false"
             //defaultValue={props.defaultKeyword}
           />
-          <input className="button" type="submit" value="Learn about" />
+          <input
+            className="button"
+            type="submit"
+            value="Learn about"
+            title="search button"
+          />
         </form>
 
         <Results results={results} />
